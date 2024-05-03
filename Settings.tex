@@ -1,0 +1,71 @@
+%################################  OPCIONES DEL DOCUMENTO  ############################################
+
+\theoremstyle{definition}
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{coro}{Corolario}
+\newtheorem{prop}{Proposición}
+\newtheorem{defi}{Definición}[section]
+
+
+\newtheoremstyle{ejjstyle}% Name of the style to be used
+  {1em}% Space above
+  {1em}% Space below
+  {\itshape}% Body font
+  {}% Indent amount
+  {\bfseries}% Theorem head font
+  {.}% Punctuation after theorem head
+  {.5em}% Space after theorem head
+  {\thmname{#1}\thmnumber{ #2}\thmnote{ #3}}% Theorem head specification (can be customized)
+
+% Apply the custom theorem style to each theorem-like environment
+\theoremstyle{ejjstyle}
+\newtheorem{ej}{Parte}
+\newtheorem{ejj}{Ejercicio}
+
+\newcommand{\espEj}{\vspace*{0.1cm}}        %espaciado entre ejercicios
+\newcommand{\espPreEj}{\vspace*{0.3cm}}     %espaciado entre titulo de seccion y ejercicios
+\newcommand{\espPostEj}{\vspace*{0.4cm}}    %espaciado entre final de ejercicios y proxima seccion
+
+%  margenes
+\setmargins
+{2.5cm}                    % margen izquierdo
+{1cm}                    % margen superior
+{16.5cm}                 % anchura del texto
+{23.42cm}                % altura del texto
+{15pt}                   % altura de los encabezados
+{1cm}                    % espacio entre el texto y los encabezados
+{0pt}                    % altura del pie de página
+{2cm}                    % espacio entre el texto y el pie de página
+
+%  encabezado y pie de pagina
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{ITBA}
+\lhead{Teoría de Circuitos II}
+\chead{Caviglia}
+\rfoot{\thepage}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdfpagemode=FullScreen,
+}
+
+%   Settings de pgfplots
+\pgfplotsset{
+    standard/.style={
+    axis line style = thick,
+    trig format=rad,
+    enlargelimits,
+    axis x line=middle,
+    axis y line=middle,
+    enlarge x limits=0.15,
+    enlarge y limits=0.15,
+    every axis x label/.style={at={(current axis.right of origin)},anchor=north west},
+    every axis y label/.style={at={(current axis.above origin)},anchor=south east}
+    }
+}

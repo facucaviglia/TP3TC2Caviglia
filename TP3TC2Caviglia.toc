@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Materiales Utilizados}{2}{section.2}%
+\contentsline {section}{\numberline {3}Desarrollo Teórico}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Función Transferencia}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Limitaciones Eléctricas}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Mediciones Experimentales}{16}{section.4}%
+\contentsline {section}{\numberline {5}Respuesta al Escalón}{18}{section.5}%
+\contentsline {section}{\numberline {6}Impedancia de Salida}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Análisis Teórico y Predicciones}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Mediciones experimentales}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Alternativas de Medición}{22}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Cálculo de la Impedancia de Salida}{25}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Bibliografía}{27}{section.7}%
